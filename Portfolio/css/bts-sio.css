@@ -1,0 +1,118 @@
+.bts-main {
+    padding: 3rem 0;
+}
+
+.bts-section .container {
+    max-width: 1000px;
+}
+
+.bts-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.bts-header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.bts-content>div {
+    margin-bottom: 3rem;
+}
+
+.bts-content h2 {
+    color: #2c3e50;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.bts-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.bts-card p {
+    margin-bottom: 1rem;
+}
+
+.bts-card ul {
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.bts-card li {
+    margin-bottom: 0.5rem;
+}
+
+.options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.option-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s;
+}
+
+.option-card:hover {
+    transform: translateY(-5px);
+}
+
+.option-card h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.option-card.slam {
+    border-top: 4px solid #3498db;
+}
+
+.option-card.sisr {
+    border-top: 4px solid #2ecc71;
+}
+
+.program-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.program-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.program-card h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.program-card ul {
+    padding-left: 1.2rem;
+}
+
+.program-card li {
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .options {
+        grid-template-columns: 1fr;
+    }
+}

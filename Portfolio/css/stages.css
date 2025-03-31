@@ -1,0 +1,135 @@
+.stages-main {
+    padding: 3rem 0;
+}
+
+.stages-section .container {
+    max-width: 1000px;
+}
+
+.stages-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.stages-header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.stage-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 3rem;
+}
+
+.stage-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.stage-header h2 {
+    color: #2c3e50;
+    font-size: 1.5rem;
+}
+
+.stage-date {
+    background: #e3f2fd;
+    color: #1976d2;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.stage-info {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+}
+
+.company-info h3,
+.mission-details h3 {
+    color: #2c3e50;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.company-info p {
+    margin-bottom: 0.8rem;
+}
+
+.mission-details ul {
+    padding-left: 1.5rem;
+}
+
+.mission-details li {
+    margin-bottom: 0.5rem;
+}
+
+.skills-acquired h3 {
+    color: #2c3e50;
+    font-size: 1.2rem;
+    margin: 1.5rem 0 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.skills-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.skill-tag {
+    background: #e3f2fd;
+    color: #1976d2;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+.stage-reflection {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.stage-reflection h2 {
+    color: #2c3e50;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.reflection-content p {
+    margin-bottom: 1rem;
+}
+
+.reflection-content ul {
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.reflection-content li {
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .stage-info {
+        grid-template-columns: 1fr;
+    }
+}

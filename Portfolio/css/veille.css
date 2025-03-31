@@ -1,0 +1,238 @@
+/* Page Veille */
+.veille-main {
+    padding: 0;
+    background-color: var(--white);
+}
+
+/* Hero Section */
+.hero-section {
+    text-align: center;
+    padding: 8rem 0 4rem;
+    background: white;
+}
+
+.subtitle {
+    display: inline-block;
+    background-color: rgba(52, 152, 219, 0.1);
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    margin-bottom: 1.5rem;
+}
+
+.hero-title {
+    font-size: 3rem;
+    color: #000;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.hero-description {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    font-weight: 400;
+}
+
+/* Definition Section */
+.definition-section {
+    padding: 2rem 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.definition-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.definition-card h2 {
+    font-size: 1.75rem;
+    color: #000;
+    margin-bottom: 1.25rem;
+    font-weight: 700;
+}
+
+.definition-card p {
+    color: #4a5568;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+    font-weight: 400;
+}
+
+.definition-card ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0.75rem 0;
+}
+
+.definition-card li {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 0.5rem;
+    color: #4a5568;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.definition-card li::before {
+    content: "•";
+    color: #3498db;
+    position: absolute;
+    left: 0;
+    top: -0.15em;
+    font-size: 2rem;
+    line-height: 1;
+}
+
+/* Topics Section */
+.topics-section {
+    padding: 2rem 0;
+}
+
+.topics-section h2 {
+    font-size: 1.75rem;
+    color: #000;
+    text-align: center;
+    margin-bottom: 0.75rem;
+    font-weight: 700;
+}
+
+.topics-section>.container>p {
+    text-align: center;
+    color: #666;
+    font-size: 1rem;
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    line-height: 1.5;
+}
+
+.topic-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 4rem;
+    margin-bottom: 2rem;
+}
+
+.topic-card:last-child {
+    margin-bottom: 0;
+}
+
+.topic-content {
+    flex: 1;
+}
+
+.topic-icon {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(52, 152, 219, 0.1);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.topic-icon img {
+    width: 20px;
+    height: 20px;
+    opacity: 0.7;
+}
+
+.topic-card h3 {
+    font-size: 1.25rem;
+    color: #000;
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+}
+
+.topic-card>p {
+    color: #4a5568;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.topic-sources h4,
+.recent-articles h4 {
+    font-size: 0.875rem;
+    color: #666;
+    margin-bottom: 0.75rem;
+    font-weight: 500;
+}
+
+.source-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.source-tags span {
+    background-color: #f1f5f9;
+    color: #4a5568;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+}
+
+.recent-articles {
+    min-width: 400px;
+}
+
+.article {
+    margin-bottom: 1.5rem;
+}
+
+.article-link {
+    color: #000;
+    font-size: 1rem;
+    text-decoration: none;
+    display: block;
+    line-height: 1.4;
+    margin-bottom: 0.25rem;
+    font-weight: 500;
+}
+
+.article-link:hover {
+    text-decoration: underline;
+}
+
+.article-meta {
+    display: flex;
+    gap: 0.5rem;
+    color: #666;
+    font-size: 0.875rem;
+    align-items: center;
+}
+
+.article-meta time::after {
+    content: "•";
+    margin-left: 0.5rem;
+    color: #3498db;
+}
+
+@media (max-width: 768px) {
+    .topic-card {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .recent-articles {
+        min-width: 100%;
+    }
+}
